@@ -1,0 +1,68 @@
+.h1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family:Open Sans;
+}
+
+.h1 li {
+    float: left;
+}
+
+.h1 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+}
+
+.h1 li a:hover:not(.active) {
+   color: #bbbbbb;
+
+}
+
+#home
+{
+    font-size: 24px;
+   
+ 
+}
+
+/* temporary fix */
+.nav
+{
+  margin-top: 6px;
+}
+
+body
+{
+    margin: 0;
+  
+   
+}
+
+#footer
+{   
+    width:100%;
+    background-color:#333;
+    color:white;
+    text-align:center;
+    /*padding:15px; */
+    position:fixed; 
+    bottom:0;
+    /*height:60px; */
+}
+/*
+.h1
+{
+    font-family:Open Sans;
+}
+
+.h1 .active {
+    background-color: #4CAF50;
+}
+*/

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Visitor</title>
+<link href="w3.css" type = "text/css" rel="stylesheet">
+</head>
+
+<body>
+<div class="selectA" align="center">
+<form action="w3a.php" method="post">
+
+  <select id="MM" name="Month">
+    <option value="1">January</option>
+    <option value="2">February</option>
+    <option value="3">March</option>
+    <option value="4">April</option>
+    <option value="5">May</option>
+    <option value="6">June</option>
+    <option value="7">July</option>
+    <option value="8">August</option>
+    <option value="9">September</option>
+    <option value="10">October</option>
+    <option value="11">November</option>
+    <option value="12">December</option>
+  </select>
+
+  <select id="DD" name="Day">
+    <option value="1">01</option>
+    <option value="2">02</option>
+    <option value="3">03</option>
+    <option value="4">04</option>
+    <option value="5">05</option>
+    <option value="6">06</option>
+    <option value="7">07</option>
+    <option value="8">08</option>
+    <option value="9">09</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+    <option value="13">13</option>
+    <option value="14">14</option>
+    <option value="15">15</option>
+    <option value="16">16</option>
+    <option value="17">17</option>
+    <option value="18">18</option>
+    <option value="19">19</option>
+    <option value="20">20</option>
+    <option value="21">21</option>
+    <option value="22">22</option>
+    <option value="23">23</option>
+    <option value="24">24</option>
+    <option value="25">25</option>
+    <option value="26">26</option>
+    <option value="27">27</option>
+    <option value="28">28</option>
+    <option value="29">29</option>
+    <option value="30">30</option>
+    <option value="31">31</option>
+  </select>
+
+  <select  id="HH" name="Hour">
+    <option value="1">01:00</option>
+    <option value="2">02:00</option>
+    <option value="3">03:00</option>
+    <option value="4">04:00</option>
+    <option value="5">05:00</option>
+    <option value="6">06:00</option>
+    <option value="7">07:00</option>
+    <option value="8">08:00</option>
+    <option value="9">09:00</option>
+    <option value="10">10:00</option>
+    <option value="11">11:00</option>
+    <option value="12">12:00</option>
+    <option value="13">13:00</option>
+    <option value="14">14:00</option>
+    <option value="15">15:00</option>
+    <option value="16">16:00</option>
+    <option value="17">17:00</option>
+    <option value="18">18:00</option>
+    <option value="19">19:00</option>
+    <option value="20">20:00</option>
+    <option value="21">21:00</option>
+    <option value="22">22:00</option>
+    <option value="23">23:00</option>
+    <option value="24">24:00</option>
+  </select>
+
+  <select id="Location" name="City">
+  </select>
+
+  <select id="Type" name="AType">
+  </select>
+
+  <select id="Level" name="ALevel">
+  </select>
+
+  <input type="submit" value="Submit" name="confirmed" >
+</form>
+</div>
+
+<script>
+var City=["SF","SC","SM","SJ"];
+min = 1,
+max = City.length,
+select = document.getElementById('Location');
+
+for (var i = min; i<=max; i++){
+var opt = document.createElement('option');
+opt.value = City[i-1];
+opt.innerHTML = City[i-1];
+select.appendChild(opt);
+}
+
+var Type=["football","basketball","running","tennis"];
+min = 1,
+max = Type.length,
+select = document.getElementById('Type');
+
+for (var i = min; i<=max; i++){
+var opt = document.createElement('option');
+opt.value = Type[i-1];
+opt.innerHTML = Type[i-1];
+select.appendChild(opt);
+}
+
+var Level=["entry-level","medium","semi-professional","professional"];
+min = 1,
+max = Level.length,
+select = document.getElementById('Level');
+
+for (var i = min; i<=max; i++){
+var opt = document.createElement('option');
+opt.value = i-1;
+opt.innerHTML = Level[i-1];
+select.appendChild(opt);
+}
+</script>

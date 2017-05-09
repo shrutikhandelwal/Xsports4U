@@ -1,0 +1,521 @@
+.h1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family:Open Sans;
+}
+
+.h1 li {
+    float: left;
+}
+
+.h1 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+}
+
+.h1 li a:hover:not(.active) {
+   color: #bbbbbb;
+
+}
+
+#home
+{
+    font-size: 24px;  
+ 
+}
+
+.logo
+{
+    color: #ff944d;
+}
+
+.headline
+{
+    text-shadow: 4px 4px 8px #000000;
+}
+/* temporary fix */
+.nav
+{
+  margin-top: 6px;
+}
+
+
+
+#footer
+{   
+    width:100%;
+    background-color:#333;
+    color:white;
+    text-align:center;
+    /*padding:15px; */
+    position:fixed; 
+    bottom:0;
+    /*height:60px; */
+}
+
+
+body
+{
+    
+   height:100%;
+   background-color:#F2F2F2;
+   margin: 0;
+   font-family:Open Sans;
+   
+}
+
+
+
+/* ---------SIGN IN/UP ---------*/
+
+#signup
+{
+   
+    margin:5px;
+    width:360px;
+    left:80px;
+    top:20px;
+    position:relative;
+   
+
+    
+}
+
+fieldset
+{
+    background-color: #D8D8D8; 
+    border: 2px solid black;
+    line-height: 18pt;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    
+
+}
+
+legend
+{
+    text-align: center;
+    border: 2px solid black; 
+    padding: 5px; 
+    font-size: 18px; 
+    background-color: white;
+
+}
+.textbox
+{
+    height: 20px;
+    width:300px;
+}
+
+#signin
+{
+    
+    margin:5px;
+    width:360px;
+    position: absolute;
+    top:200px;
+    right:90px;
+}
+
+#submit
+{
+    height: 30px;
+    width:300px;
+    text-align: center;
+    background-color:#333;
+    color: white;
+
+}
+
+
+/* -------CONTACT US------*/ 
+
+
+h1.container
+{   
+     
+  font-size: 20pt;
+  
+}
+
+
+.container
+{
+    width:100%;
+    text-align: center;
+
+}
+
+.img
+{
+    background-color: #D8D8D8;
+}
+div.img {
+   margin-top: 30px;
+    margin-left: 150px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 280px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+/*
+#circle {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+
+
+#map {
+        float:right;
+        position: relative;
+        top:250px;
+
+      }
+
+.container
+{
+    width:100%;
+    height:400px;
+    background-color:#D8D8D8;
+    margin:0px;
+    text-align: center;
+
+}
+
+
+
+*/
+
+#map 
+/*http://jsfiddle.net/1nqrwvgk/1/ */
+{
+    filter: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="g"><feColorMatrix type="matrix" values="0.3 0.3 0.3 0 0 0.3 0.3 0.3 0 0 0.3 0.3 0.3 0 0 0 0 0 1 0"/></filter></svg>#g');
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);    
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayScale=1);
+    margin: 0px;
+
+}
+
+
+/*---------TRAINER PROFILE------------------*/
+
+
+#TrainerInfo
+{
+    height:400px;
+    width:250px;
+    border: 2px solid black;
+    margin: 15px;
+    margin-left: 15px;
+    position: relative;
+    margin-top: 60px;
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-top: 20px;
+
+
+}
+
+#userinfodiv
+{
+    margin-left: 10px;
+    padding:20px;
+
+}
+
+.profilepic
+{
+    margin-left: 20px;
+
+    border: 2px, solid , black;
+    margin-top: 10px;
+}
+
+#Tschedule
+{
+    padding:25px;
+    margin:5px;
+    width:400px;
+    position: absolute;
+    top:150px;
+    right:680px;
+    margin-left: 85px;
+}
+}
+#schedule
+{
+    font-size:1.50em;
+    font-weight:bold;
+    position:center;
+
+}
+
+#EventHistory
+{
+    padding:25px;
+    margin:5px;
+    width:400px;
+    position: absolute;
+    top:150px;
+    right:180px;
+}
+
+
+#Ebutton
+{
+    position: absolute;
+    bottom:120px;
+    right:640px;
+}
+
+
+#EventButton
+{
+    
+    padding:10px;
+    border-radius: 2px;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+}
+
+
+/*---------------------------------------UserProfile------------------------------------*/
+
+#background
+{
+    width: 100%;
+    height: 200px;
+}
+
+
+#UserInfo
+{
+    height:400px;
+    width:250px;
+    border: 2px solid black;
+    margin: 15px;
+    margin-left: 80px;
+    position: relative;
+    margin-top: 60px;
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-top: 20px;
+
+
+}
+
+#userinfodiv
+{
+    margin-left: 10px;
+    padding:20px;
+
+}
+
+.profilepic
+{
+    margin-left: 20px;
+
+    border: 2px, solid , black;
+    margin-top: 10px;
+}
+
+#Uschedule
+{
+    padding:25px;    margin:5px;    width:400px;    position: absolute;    top:150px;    right:680px;    margin-left: 85px;
+}
+}
+#schedule
+{
+    font-size:1.50em;
+    font-weight:bold;
+    position:center;
+
+}
+
+#SubscribedEvents
+{
+    padding:25px;    margin:5px;    width:400px;    position: absolute;    top:150px;    right:180px;
+}
+
+
+#Ebutton
+{
+    position: absolute;
+    bottom:120px;
+    right:640px;
+}
+
+
+#EventButton
+{
+    
+    padding:10px;
+    border-radius: 2px;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+}
+
+
+/* -----video ----- */
+
+#video
+{
+    min-height: 100%;
+    min-width:100%; 
+    width: auto;
+    height: auto;
+    background: url("/Users/anushaduraisamy/Downloads/1.mp4");
+    background-size: cover;
+    background-color: #333;
+    z-index: -1000;*/
+    overflow: hidden
+}
+
+
+/*-----------------------title -video background-------------------------------*/
+
+/* z-index: -1000;
+    overflow: hidden
+.title{
+    width: 960px;
+    height: 100%;
+    z-index: 20;
+}
+
+.headline{
+    z-index: 20;
+    width: 300px;
+    height: 300px;
+}
+ */
+
+#titleHeading
+{
+    font-size: 90pt;
+}
+
+#slogan
+{
+    font-size:32pt;
+}
+
+ .title
+ {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 30pt;
+}
+ .headline 
+ {
+    
+position: absolute;
+left: 500px;
+top:120px;
+ }
+
+/*-------------------annimate arrow ------------------------*/
+
+@import "compass/css3";
+
+@include keyframes(bounce) {
+    0%, 20%, 50%, 80%, 100% {
+    @include transform(translateY(0));
+  }
+    40% {
+    @include transform(translateY(-30px));
+  }
+    60% {
+    @include transform(translateY(-15px));
+  }
+}
+
+
+
+.arrow {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left:-20px;
+  width: 40px;
+  height: 40px;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yOTMuNzUxLDQ1NS44NjhjLTIwLjE4MSwyMC4xNzktNTMuMTY1LDE5LjkxMy03My42NzMtMC41OTVsMCwwYy0yMC41MDgtMjAuNTA4LTIwLjc3My01My40OTMtMC41OTQtNzMuNjcyICBsMTg5Ljk5OS0xOTBjMjAuMTc4LTIwLjE3OCw1My4xNjQtMTkuOTEzLDczLjY3MiwwLjU5NWwwLDBjMjAuNTA4LDIwLjUwOSwyMC43NzIsNTMuNDkyLDAuNTk1LDczLjY3MUwyOTMuNzUxLDQ1NS44Njh6Ii8+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMjIwLjI0OSw0NTUuODY4YzIwLjE4LDIwLjE3OSw1My4xNjQsMTkuOTEzLDczLjY3Mi0wLjU5NWwwLDBjMjAuNTA5LTIwLjUwOCwyMC43NzQtNTMuNDkzLDAuNTk2LTczLjY3MiAgbC0xOTAtMTkwYy0yMC4xNzgtMjAuMTc4LTUzLjE2NC0xOS45MTMtNzMuNjcxLDAuNTk1bDAsMGMtMjAuNTA4LDIwLjUwOS0yMC43NzIsNTMuNDkyLTAuNTk1LDczLjY3MUwyMjAuMjQ5LDQ1NS44Njh6Ii8+DQo8L3N2Zz4=);
+  background-size: contain;
+}
+
+.bounce {
+  @include animation(bounce 2s infinite);
+}
+
+/*--------------------------Slide Images-----------------------------*/
+
+
+.slideimages
+{
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

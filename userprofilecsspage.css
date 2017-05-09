@@ -1,0 +1,227 @@
+
+#headnav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 10px;
+    overflow: hidden;
+	background-color:#272822; //#A4F250;
+	border-radius:20px;
+	color:white;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+
+
+#headnav>ul>li {
+    display: inline;
+	margin: 0;
+    padding: 10px 20px ;
+    overflow: hidden;
+	font-size:18px;
+	text-decoration: none;
+	color:white;
+	font-family:  Andale Mono,Consolas,Monaco,'monospace';
+}
+
+#headnav>ul>li>a{text-decoration:none;color:white;}  				/* to remove the underline from the text li>a  */
+
+
+#headnav>ul>li>a:hover{
+		color:#BCBCBA;
+	}
+
+#headtop{
+display:inline;
+position:absolute;
+top:5px;
+right:20px;
+font-family:  Andale Mono,Consolas,Monaco,'monospace';
+color:white;
+}
+
+
+/*---------------------------------------- Basic information part--------------------------------------------*/
+#userbasic {
+	background-color:#f8f8f2;
+	overflow:auto;
+	padding:20px 25px;
+	font-size:30;
+	font-family:  Andale Mono,Consolas,Monaco,'monospace';
+	font-style:italic;
+	border:1px solid #BCBCBA;
+	//border-top:3px solid #f8f8f2;
+    //border-bottom:5px solid white;
+	border-radius:20px;
+	margin-top:3px;
+	color:#272822;
+}
+
+#userbasicdiv {
+	word-spacing: 5px;
+	padding:10px 130px 99px 330px;
+	position:center;
+	border:3px solid #BCBCBA;
+	border-radius:18px;
+	}
+
+.profilepic {
+    float: left;
+    width:270;
+	height:270;
+	position:relative;
+	top:15px;
+	left:15px;
+	border-radius:18px;
+
+	}
+/*----------------------------------------END Basic information part--------------------------------------------*/
+
+/*---------------------------------------- Activities information part--------------------------------------------*/
+#Impbuttons{
+	width:400px;
+	height:450px;
+	float:left;
+}
+#Impbuttons>ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 15 15 15 15;
+    overflow: hidden;
+	background-color: white;
+	border:3px solid #BCBCBA;
+	border-radius:18px;
+	font-family:  Andale Mono,Consolas,Monaco,'monospace';
+	margin-top:3px;
+	}
+	
+#Impbuttons>ul >li{
+	list-style-type: none;
+    margin: 3 3 3 3;
+  padding: 10 10 10 10;;
+    overflow: hidden;
+    background-color: white;
+	font-size:18px;
+	border:2px solid #BCBCBA;
+	border-radius:18px;
+	text-align:center;
+	color:#272822;
+	font-weight:bold;
+
+}
+#Impbuttons>ul>li>a{text-decoration:none;color:#272822;}
+
+#Impbuttons>ul>li>a:hover{
+	text-decoration: none;
+	color:#BCBCBA;
+	}
+	/*----------------------------------------END Activities information part--------------------------------------------*/
+	
+	/*---------------------------------------- Schedule information part--------------------------------------------*/
+	
+	#schedule{
+	width:840px;
+	height:300px;
+	border:1px solid #BCBCBA;
+	border-radius:18px;
+	font-family:  Andale Mono,Consolas,Monaco,'monospace';
+	margin-top:3px;
+    padding:10px 10px 10 10;
+	float:left;	
+	margin-left:3
+	background-color:#BCBCBA;
+	}
+	
+	#schedule1{
+	width:300px;
+	height:270px;
+	border:2px solid #BCBCBA;
+	border-radius:18px;;
+    padding:10px 10px 10 10;
+	float:left;
+	color:#272822;
+	}
+	
+	#schedule2{
+	width:430px;
+	height:270px;
+	border:2px solid #BCBCBA;
+	border-radius:18px;
+    padding:10px 10px 10 10;
+	float:left;
+	margin-left:30px;
+	color:#272822;
+	}
+	
+	.schedule_span{
+		font-size:1.50em;
+		font-weight:bold;
+		position:center;
+		}
+	
+	#schedule1>p{
+			text-indent: 50px;
+	}
+		
+		table {
+    width: 100%;
+	height: 100%;
+}
+	/*---------------------------------------- END Schedule information part--------------------------------------------*/	
+	
+	/*---------------------------------------- My account page css part--------------------------------------------*/
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #BCBCBA;
+	font-family:  Andale Mono,Consolas,Monaco,'monospace';
+    border-radius: 18px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color:#272822 ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 17px;
+	font-family:  Andale Mono,Consolas,Monaco,'monospace';
+    cursor: pointer;
+	font-size:20px;
+}
+
+input[type=submit]:hover {
+color: #BCBCBA;
+}
+
+#myaccount {
+	width:500px;
+	height:800px';
+    border-radius: 5px solid #BCBCBA;
+    background-color: white;
+	font-family:  Andale Mono,Consolas,Monaco,'monospace';
+position:relative;
+left:100px;
+	}
+	#billing {
+	width:500px;
+	height:800px';
+    border-radius: 5px solid #BCBCBA;
+    background-color: white;
+	font-family:  Andale Mono,Consolas,Monaco,'monospace';
+position:relative;
+left:350px;
+top:50px;
+	}
+	
+	#history{
+	width:900px;
+	height:800px';
+    border-radius: 18px;
+    
+	font-family:  Andale Mono,Consolas,Monaco,'monospace';
+position:relative;
+left:100px;
+	}
